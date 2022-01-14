@@ -1,0 +1,107 @@
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.clr{
+    clear: both;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+/* common css end */
+
+
+/* ========================= Navbar Part css Start ========================= */
+#header{
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logo{
+    width: 200px;
+    float: left;
+    padding-top: 34px;
+}
+
+.menu{
+    width: 970px;
+    float: left;
+    text-align: right;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+
+.menu ul li a{
+    font-family: 'Roboto', sans-serif;
+    line-height: 90px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 42px;
+    transition: all linear 0.4s;
+}
+
+.menu ul li a:hover{
+    color: #25a2bf;
+}
+
+/* ======================= Banner Part css Start ====================== */
+
+#banner{
+    background: url(../images/banner.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 330px;
+    padding-bottom: 250px;
+}
+
+.banner-text{
+    text-align: center;
+}
+
+.banner-text h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.banner-text h3{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.banner-text p{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #fff;
+}
