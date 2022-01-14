@@ -221,7 +221,7 @@ img{
     background: #535353;
     top: 50%;
     transform: translateY(-50%);
-    left: 400px;
+    left: 450px;
 }
 
 .gallery-head h3::after {
@@ -232,7 +232,7 @@ img{
     background: #535353;
     top: 50%;
     transform: translateY(-50%);
-    right: 400px;
+    right: 450px;
 }
 
 .gal-item {
@@ -261,4 +261,118 @@ img{
 
 .gal-button i {
     padding-right: 7px;
+}
+
+/* =========================== Journal Part css Start ======================= */
+
+#journal {
+    padding-top: 76px;
+    padding-bottom: 80px;
+}
+
+.journal-head {
+    padding-bottom: 32px;
+}
+
+.journal-head h3 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #444444;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.journal-head h3::before {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 1px;
+    background: #535353;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 450px;
+}
+
+.journal-head h3::after {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 1px;
+    background: #535353;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 450px;
+}
+
+.journal-item {
+    width: 355px;
+    float: left;
+    border: 1px solid #e3e3e3;
+    margin-right: 30px;
+    background-color: #fff;
+}
+
+.journal-item img {
+    width: 100%;
+}
+
+.journal-item .top {
+    text-align: center;
+}
+
+.journal-item .top h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #444444;
+    padding-top: 13px;
+    padding-bottom: 4px;
+}
+
+.journal-item .top h4 {
+    font-family: 'Roboto', serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #999999;
+    padding-bottom: 13px;
+}
+
+.journal-item .bottom{
+    padding: 25px;
+}
+
+.journal-item .bottom p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    line-height: 22px;
+    padding-bottom: 9px;
+}
+
+.journal-item .bottom span{
+    float: right;
+}
+
+.journal-item .bottom a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: #999999;
+    display: inline-block;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #28b8d8;
+}
+
+.journal-item .bottom span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: #999999;
+}
+
+.journal-item .bottom span i{
+    padding-right: 4px;
 }
