@@ -29,7 +29,7 @@ img{
 
 
 /* ========================= Navbar Part css Start ========================= */
-#navr{
+#nav{
     background: rgba(0, 0, 0, 0.6);
     position: fixed;
     top: 0;
@@ -104,4 +104,30 @@ img{
     font-weight: 300;
     font-size: 14px;
     color: #fff;
+}
+
+/* ======================== About Part css Start ======================= */
+
+#about {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.about-text {
+    text-align: center;
+}
+
+.about-text h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #444444;
+    padding-bottom: 9px;
+}
+
+.about-text h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
 }
