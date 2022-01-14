@@ -132,6 +132,12 @@ img{
     color: #666666;
 }
 
+/* =================== middle part css =============================== */
+
+.middle {
+    background-color: #f9f9f9;
+}
+
 /* ================== Service Part css Start ======================= */
 
 #service {
@@ -153,6 +159,7 @@ img{
     border: 1px solid #e3e3e3;
     padding: 15px;
     margin-right: 30px;
+    background-color: #fff;
 }
 
 .service-item img {
@@ -182,4 +189,76 @@ img{
 
 .mr-none {
     margin-right: 0;
+}
+
+/* =================== Gallery Part css Start ======================= */
+
+#gallery {
+    background: #2c2c2c;
+    padding-top: 50px;
+    padding-bottom: 45px;
+}
+
+.gallery-head {
+    padding-bottom: 42px;
+}
+
+.gallery-head h3 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #d5d5d5;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.gallery-head h3::before {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 1px;
+    background: #535353;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 400px;
+}
+
+.gallery-head h3::after {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 1px;
+    background: #535353;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 400px;
+}
+
+.gal-item {
+    width: 25%;
+    float: left;
+}
+
+.gal-item img {
+    width: 100%;
+}
+
+.gal-button {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.gal-button a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    border: 1px solid #797979;
+    padding: 16px 20px;
+}
+
+.gal-button i {
+    padding-right: 7px;
 }
