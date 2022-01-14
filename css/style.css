@@ -376,3 +376,131 @@ img{
 .journal-item .bottom span i{
     padding-right: 4px;
 }
+
+/* ==================== More about Part css Start ============================ */
+
+#more-about {
+    padding-bottom: 80px;
+}
+
+.more-about-left {
+    width: 570px;
+    float: left;
+    margin-right: 30px;
+}
+
+.more-about-right {
+    width: 570px;
+    float: left;
+}
+
+.more-about-left-head h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #444444;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.more-about-left-head {
+    padding-bottom: 30px;
+}
+
+.more-about-left-head h2::after {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 1px;
+    background: #d9d9d9;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 240px;
+}
+
+.left-img {
+    width: 195px;
+    float: left;
+    margin-right: 30px;
+}
+
+.left-text {
+    width: 315px;
+    float: left;
+}
+
+.left-img img {
+    width: 100%;
+}
+
+.left-text h6 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #666666;
+    line-height: 28px;
+    padding-bottom: 7px;
+}
+
+.left-text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+    line-height: 24px;
+}
+
+.more-about-right-head h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #444444;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.more-about-right-head h2::after {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 1px;
+    background: #d9d9d9;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 124px;
+}
+
+.more-about-right-head {
+    padding-bottom: 30px;
+}
+
+.right-img {
+    width: 45px;
+    float: left;
+    margin-right: 25px;
+}
+
+.right-text {
+    width: 500px;
+    float: left;
+}
+
+.right-text h4 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #444444;
+    padding-bottom: 5px;
+}
+
+.right-text p {
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    line-height: 22px;
+}
+
+.more-about-right-main{
+    margin-bottom: 14px;
+}
