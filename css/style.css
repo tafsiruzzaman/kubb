@@ -504,3 +504,69 @@ img{
 .more-about-right-main{
     margin-bottom: 14px;
 }
+
+/* =========================== footer Part css Start ============================ */
+
+#footer{
+    background: #373737;
+    padding-top: 68px;
+    padding-bottom: 70px;
+}
+
+.footer-item{
+    width: 25%;
+    float: left;
+}
+
+.footer-head h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #f0f0f0;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.footer-text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #cacaca;
+    line-height: 24px;
+    padding-right: 20px;
+}
+
+.address{
+    padding-top: 14px;
+}
+
+.address ul li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #cacaca;
+    padding-bottom: 7px;
+}
+
+.address i{
+    padding-right: 10px;
+}
+
+.footer-space p{
+    padding-bottom: 20px;
+}
+
+/* ========================== Copyright part css Start ====================== */
+
+#copyright{
+    background: #333333;
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+
+#copyright p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #cacaca;
+}
